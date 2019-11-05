@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Wisdom Script';
+    src: url('../fonts/wisdom-script-aj.otf') format('opentype');
+    }
+
+/****** BASE STYLES ******/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000  
+}
+#about, #menu, #locations, #gallery, #reviews, #content {
+    height: 600px;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/****** HEADER ******/
+
+header {
+    height: 112px;
+    background: white;
+    margin: 0 auto;
+}
+header h1 { 
+    padding: 30px 0 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+}
+header h1 span {
+    color: #77a466;
+}
+nav {
+    float: right;
+    padding: 47px 25px 40px 25px; 
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    padding-left: 10px; 
+}
+
+/****** TOP ******/
+#top .full-width {
+    text-align: left;
+    background-color: white;
+}
+#top img#green-beans-img {
+    margin-left: 0 auto;
+    border: 3px solid #77a466;
+    padding: 0
+}
+#top h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    padding-top: 5px;
+    color: #77a466;
+}
+#top p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 25px;
+}
+
+/****** BOTTOM ******/
+
+#bottom .full-width {
+    text-align: left;
+    background-color: white;
+    margin: 0 auto;
+    height: 214px;
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+    overflow: hidden;
+}
+#specials {
+    width: 350px;
+    padding: 20px 35px 30px 0;
+    margin: 0 1px;
+    height: 220px;
+}
+#specials h3 {
+    font-size: 12px;
+    line-height: 25px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#specials p {
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0 auto;
+    color: #77a466;
+}
+#reviews {
+    width: 350px;
+    padding: 20px 35px 30px 30px;
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+    height: 220px;
+}
+#reviews h3 {
+    font-size: 12px;
+    line-height: 25px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 340px;
+}
+#reviews p {
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    width: 340px;
+}
+#contact {
+    width: 350px;
+    height: 220px;
+}
+#contact h3 {
+    font-size: 12px;
+    line-height: 25px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 18px 0 0 35px;
+}
+#contact p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 0 0 35px;
+}
+/****** FOOTER ******/
+
+#footer {
+    clear: both;
+    margin: 0 auto;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 23px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000; 
+    padding: 32px 0 0 0;
+    height: 80px;
+}
+footer span {
+    color: #77a466;
+    font-family: 'Wisdom Script', cursive;
+    text-transform: lowercase;
+
+}
